@@ -1,0 +1,12 @@
+[gene-expression]
+reference,/gpfs0/export/reference/cellranger/refdata-gex-GRCh38-2020-A
+probe-set,/export/apps/opt/cellranger/8.0.0/probe_sets/Chromium_Human_Transcriptome_Probe_Set_v1.0.1_GRCh38-2020-A.csv
+create-bam,TRUE
+
+[libraries]
+fastq_id,fastqs,feature_types
+FF033_HS06_GEX,/home/LAB_GROUP/sxh163/CMVC0325/250305_GSL-SH-4314/FF033_HS06_GEX/,Gene Expression
+FF033_HS06_CSP,/home/LAB_GROUP/sxh163/CMVC0325/250305_GSL-SH-4314/FF033_HS06_CSP/,Antibody Capture
+
+[feature]
+reference,/home/LAB_GROUP/sxh163/CMVC0325/total_seq/TotalSeq_B_Human_Universal_Cocktail_V1_399904_Antibody_reference_UMI_counting_CellRanger.csv

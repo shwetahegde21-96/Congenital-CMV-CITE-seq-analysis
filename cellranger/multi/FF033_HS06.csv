@@ -1,0 +1,12 @@
+[gene-expression]
+reference,/igm/apps/10X_chromium/refdata-gex-GRCh38-2020-A,
+probe-set,/igm/apps/10X_chromium/cellranger-8.0.0/probe_sets/Chromium_Human_Transcriptome_Probe_Set_v1.0.1_GRCh38-2020-A.csv,
+create-bam,TRUE,
+
+[libraries]
+fastq_id,fastqs,feature_types
+FF033_HS06_GEX,/igm/projects/250305_GSL-SH-4314/fastq,Gene Expression
+FF033_HS06_CSP,/igm/projects/250305_GSL-SH-4314/fastq,Antibody Capture
+
+[feature]
+reference,/igm/apps/10X_chromium/totalseq_ref_files/TotalSeq_B_Human_Universal_Cocktail_V1_399904_Antibody_reference_UMI_counting_CellRanger.csv,
