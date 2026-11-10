@@ -1,0 +1,3 @@
+sample_id,molecule_h5
+FF033_HS06_CSP,/path/to/FF033_HS06_CSP/outs/molecule_info.h5
+FF033_HS06_GEX,/path/to/FF033_HS06_GEX/outs/molecule_info.h5
